@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Asterisk, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <Building2 className="h-8 w-8 text-indigo-400" />
+              <Asterisk className="h-8 w-8 text-indigo-400" />
               <span className="text-2xl font-bold">HanzCorp</span>
             </div>
             <p className="text-slate-300 mb-6 leading-relaxed">
