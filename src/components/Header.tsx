@@ -152,7 +152,7 @@ const Header: React.FC = () => {
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
+                  <Menu className="h-6 w-6 text-white" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] bg-white">
