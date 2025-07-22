@@ -151,8 +151,8 @@ const Header: React.FC = () => {
           <div className="md:hidden">
             <Sheet>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6 text-white" />
+                <Button variant="ghost" size="icon" className="hover:bg-transparent">
+                  <Menu className="h-8 w-8 text-white" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="w-[300px] bg-white">
